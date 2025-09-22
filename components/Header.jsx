@@ -81,7 +81,6 @@ const Header = () => {
 
           </SignedOut>
 
-
           <SignedIn>
             <UserButton
               appearance={{
@@ -96,7 +95,6 @@ const Header = () => {
           </SignedIn>
         </div>
       </nav>
-
     </header>
   )
 }
