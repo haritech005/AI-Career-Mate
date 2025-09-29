@@ -22,7 +22,6 @@ const Header = () => {
 
         <div className="flex items-center space-x-2 md:space-x-4">
           <SignedIn>
-
             <Link href='/industry'>
 
               <Button
@@ -78,9 +77,7 @@ const Header = () => {
             <SignInButton>
               <Button variant="outline">Sign In</Button>
             </SignInButton>
-
           </SignedOut>
-
           <SignedIn>
             <UserButton
               appearance={{
