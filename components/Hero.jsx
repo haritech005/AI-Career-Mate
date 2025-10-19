@@ -45,6 +45,7 @@ const HeroSecttion = () => {
 
                 <div className='hero-image-wrapper mt-5 md:mt-0'>
                     <div ref={imageRef} className='hero-image'>
+                        
                         <Image
                             src={"/banner.jpeg"}
                             width={1280}
@@ -53,6 +54,7 @@ const HeroSecttion = () => {
                             className='rounded-lg shadow-2xl border mx-auto'
                             priority
                         ></Image>
+                        
                     </div>
                 </div>
             </div>
